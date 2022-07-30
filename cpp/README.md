@@ -2,8 +2,6 @@
 
 ## Implemented:
 
----
-
 ## Not Implemented:
 - Dynamic Array
 - Stack (with arrays)
@@ -20,10 +18,12 @@
 - Trie
 - HashMap
 
----
-
 ## Less priority to implement
 - Priority Queue
 - Self Balancing Binary Tree ( AVL / Red Black [whichever one wasn't implemented] )
 - Binary Indexed Tree (Fenwick Tree)
 - Indexed Priority Queue
+
+
+## Resources
+[Learn CPP](https://www.learncpp.com/)

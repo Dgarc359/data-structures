@@ -27,3 +27,5 @@
 
 ## Resources
 [Learn CPP](https://www.learncpp.com/)
+
+[Dynamic Array Outline -- OSU](https://web.engr.oregonstate.edu/~sinisa/courses/OSU/CS261/lectures/dynArr.pdf)

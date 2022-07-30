@@ -1,3 +1,5 @@
+#ifndef DYNAMICARRAY_H
+#define DYNAMICARRAY_H
 template <typename T>
 
 class DynamicArray {
@@ -21,3 +23,5 @@ class DynamicArray {
      */
     T array[16] = {}; 
 };
+
+#endif // DYNAMICARRAY_H

@@ -12,4 +12,4 @@ main.o: $(DA)/main.cpp
 	g++ -c $(DA)/main.cpp
 
 clean:
-	rm *.o
+	rm **/**/*.o

@@ -15,8 +15,9 @@ class DynamicArray {
     int maxSize;
     
     /**
-     * innit inner array to size 16
+     * init inner array to size 16
      * hopefully we're doing generics right here... 
+     * TODO: init array to requested size during class construction
      */
     T array[16] = {}; 
 };

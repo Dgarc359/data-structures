@@ -28,6 +28,8 @@
 ## Resources
 [Learn CPP](https://www.learncpp.com/)
 
-[Makefile Quick Guide](https://www.tutorialspoint.com/makefile/makefile_quick_guide.htm)
+[DOCUMENT -- Makefile Quick Guide](https://www.tutorialspoint.com/makefile/makefile_quick_guide.htm)
+
+[VIDEO -- How to Create a Simple Makefile](https://www.youtube.com/watch?v=_r7i5X0rXJk)
 
 [Dynamic Array Outline -- OSU](https://web.engr.oregonstate.edu/~sinisa/courses/OSU/CS261/lectures/dynArr.pdf)

@@ -12,7 +12,7 @@ class DynamicArray {
      * if it does, double array size and then add element,
      * otherwise add elem to array
      */
-    void add(){};
+    void add();
 
   private:
     int maxSize;

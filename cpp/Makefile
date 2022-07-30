@@ -11,5 +11,6 @@ dynamic-array.o: $(DA)/dynamic-array.cpp $(DA)/dynamic-array.h
 main.o: $(DA)/main.cpp
 	g++ -c $(DA)/main.cpp
 
+#TODO: better cleaning logic
 clean:
-	rm **/**/*.o
+	rm **/**/*.o **/**/dynamic-array.exe **/**/dynamic-array

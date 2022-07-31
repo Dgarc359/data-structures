@@ -1,5 +1,6 @@
 #ifndef _DynamicArray_h
 #define _DynamicArray_h
+#include <iostream>
 template <typename T>
 
 class DynamicArray {
@@ -31,7 +32,14 @@ class DynamicArray {
      * if it does, double array size and then add element,
      * otherwise add elem to array
      */
-    void add(T);
+    void add(T elem) {
+      this -> array[this -> length - 1] = elem;
+      std::cout << "First array elem" << this -> array[0];
+    };
+
+    T * getArray() {
+      return this -> array;
+    }
 
   private:
     int maxSize;

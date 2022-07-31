@@ -3,8 +3,8 @@
 using namespace std;
 
 int main() {
-    DynamicArray<int> arr(2);
+    DynamicArray<int> arr;
     arr.add(2);
 
     return 0;
-}
+};

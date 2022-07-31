@@ -15,7 +15,7 @@ class DynamicArray {
      * @param givenLength 
      */
     DynamicArray(int givenLength) {
-      array[givenLength] = {};
+      array[givenLength];
     };
 
     /**
@@ -31,7 +31,7 @@ class DynamicArray {
      * if it does, double array size and then add element,
      * otherwise add elem to array
      */
-    void add(T elem);
+    void add(T);
 
   private:
     int maxSize;

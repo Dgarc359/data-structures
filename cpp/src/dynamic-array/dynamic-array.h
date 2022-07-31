@@ -40,8 +40,14 @@ class DynamicArray {
      */
     void add(T elem) {
       // TODO: check if adding elem overflows array
-      if(length == sizeof(innerArray)) {
+      if(length == arrSize) {
+        // copy all elements of inner array into new array
         T newArr[this -> arrSize];
+
+        for(int i = 0; i < arrSize; i++) {
+          newArr[i] = innerArray[i];
+        }
+        
         p = newArr;
       }
       p[this->length] = elem;

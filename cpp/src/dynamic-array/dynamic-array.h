@@ -47,6 +47,7 @@ class DynamicArray {
      * Init inner array to size 16
      * hopefully we're doing generics right here... 
      * TODO: init array to requested size during class construction
+     * TODO: Maybe we need to use a vector instead?
      */
     T array[16] = {}; 
 };

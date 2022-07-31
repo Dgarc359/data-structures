@@ -13,4 +13,4 @@ main.o: $(DA)/main.cpp
 
 #TODO: better cleaning logic
 clean:
-	rm **/**/*.o **/**/dynamic-array.exe **/**/dynamic-array output
+	rm **/**/*.o **/**/dynamic-array.exe **/**/dynamic-array **/**/dynamic-array.out output

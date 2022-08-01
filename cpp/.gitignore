@@ -31,5 +31,10 @@ sites
 *.out
 *.appe
 
-main.DSYM/
-main
+main.dSYM/
+
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*

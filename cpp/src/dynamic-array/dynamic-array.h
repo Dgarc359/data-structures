@@ -52,15 +52,22 @@ class DynamicArray {
       }
       p[this->length] = elem;
       length++;
-
-      std::cout << 
-        "current length\n" << 
-        length;
     };
+
+    /**
+     * @brief add element to specified index, @override
+     * 
+     * @param elem element to add to array
+     * @param index index of array to add element
+     */
+    void add(T elem, int index) {
+
+    };
+
 
     T * getArray() {
       return p;
-    }
+    };
 
   private:
     int maxSize = 16;

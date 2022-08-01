@@ -30,3 +30,6 @@ sites
 *.exe
 *.out
 *.appe
+
+main.DSYM/
+main

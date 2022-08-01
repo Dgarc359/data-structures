@@ -5,7 +5,7 @@ DA = src/dynamic-array
 output: $(DA)/dynamic-array.o $(DA)/main.o
 	g++ -v $(DA)/dynamic-array.o $(DA)/main.o -o $(DA)/dynamic-array
 
-dynamic-array.o: $(DA)/dynamic-array.cpp $(DA)/dynamic-array.h
+dynamic-array.o: $(DA)/dynamic-array.h
 	g++ -cv $(DA)/dynamic-array.cpp
 
 main.o: $(DA)/main.cpp
@@ -13,4 +13,4 @@ main.o: $(DA)/main.cpp
 
 #TODO: better cleaning logic
 clean:
-	rm **/**/*.o **/**/dynamic-array.exe **/**/dynamic-array **/**/dynamic-array.out output
+	rm **/**/*.o **/**/dynamic-array.exe **/**/dynamic-array
